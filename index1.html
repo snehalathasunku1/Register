@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="bootstrap.css">
+   <link rel="stylesheet" href="mdb.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+  <button class="btn btn-secondary" data-toggle="modal" data-target="#abc">Register</button>
+  <div class="modal" id="abc">
+  <div class="modal-dialog">
+  <div class="modal-content animated swing">
+        <div class="modal-header bg-secondary">
+            <h3>Register Here</h3>
+     <button class="close" data-dismiss="modal">
+               <i class="bi bi-x-lg"></i>
+     </button>
+</div>
+   <div class="modal-body bg-warning">
+    <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="907a7c69-4017-42bf-90ea-6ecb1c0b7e75">
+   <div class="form-group">
+        <input type="text" class="form-control" name="name" placeholder="Username">
+  </div>
+   <div class="form-group">
+        <input type="text" class="form-control" name="email" placeholder="Enter Your Email">
+   </div>
+    <div class="form-group">
+       <input type="text" class="form-control" name="message" placeholder="Enter a message">
+    </div>
+    <button class="btn btn-primary">Submit</button>
+        </form>
+   </div>
+</div>
+</div>
+</div>
+<script src="jquery.js"></script>
+<script src="popper.js"></script>
+<script src="bootstrap.js"></script>
+<script src="mdb.js"></script>
+</body>
+</html>
+
